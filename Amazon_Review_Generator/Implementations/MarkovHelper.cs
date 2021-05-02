@@ -35,18 +35,25 @@ namespace Amazon_Review_Generator.Implementations
         {
             List<string> fileContents = sampleData == null ? new List<string>() : sampleData.ToList();
 
-            if (sampleData == null)
+            try
             {
-                foreach (string fileName in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "Sample Data")))
+                if (sampleData == null)
                 {
-                    fileContents.AddRange(File.ReadAllLinesAsync(fileName).Result.ToList());
+                    foreach (string fileName in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "Sample Data")))
+                    {
+                        fileContents.AddRange(File.ReadAllLinesAsync(fileName).Result.ToList());
+                    }
                 }
-            }            
 
-            foreach(string line in fileContents)
-            {
-                reviewsList.Add(JsonConvert.DeserializeObject<Review>(line));
+                foreach (string line in fileContents)
+                {
+                    reviewsList.Add(JsonConvert.DeserializeObject<Review>(line));
+                }
             }
+            catch (Exception)
+            {
+                // In a perfect world, I'd have some logging here.                
+            }            
 
             return reviewsList;
         }
@@ -58,13 +65,13 @@ namespace Amazon_Review_Generator.Implementations
             foreach (Review review in reviewsList)
             {
                 // This process ensures that the formatting is retained so that we can deserialize and display a formatted JSON object.
-                Chain.Add(new string[] { "{", $"\"reviewerID\":", $"\"{review.reviewerID}\",",
-                                         $"\"asin\":", $"\"{review.asin}\",",
+                Chain.Add(new string[] { "{", $"\"reviewerID\":", $"\"{review.reviewerID ?? "Not Available"}\",",
+                                         $"\"asin\":", $"\"{review.asin ?? "Not Available"}\",",
                                          $"\"reviewerName\":", $"\"{review.reviewerName ?? "Not Available"}\",",
-                                         $"\"helpful\":", $"[{review.helpful[0]}, {review.helpful[1]}],",
-                                         $"\"reviewText\":", $"\"{review.reviewText}\",",
+                                         $"\"helpful\":", $"[{review?.helpful[0]}, {review?.helpful[1]}],",
+                                         $"\"reviewText\":", $"\"{review.reviewText ?? "Not Available"}\",",
                                          $"\"overall\":", $"\"{review.overall}\",",
-                                         $"\"summary\":", $"\"{review.summary}\",",
+                                         $"\"summary\":", $"\"{review.summary ?? "Not Available"}\",",
                                          $"\"unixReviewTime\":", $"\"{review.unixReviewTime}\",",
                                          $"\"reviewTime\":", $"\"{review.reviewTime}\"", "}"}, 1);
             }

@@ -23,9 +23,18 @@ namespace Amazon_Review_Generator.Controllers
         public Review Generate()
         {
             Random rand = new Random();
-            string review = string.Join(" ", this._markovHelper.Chain.Chain(rand));
 
-            return JsonConvert.DeserializeObject<Review>(review);
+            if (this._markovHelper.Chain != null)
+            {
+                string review = string.Join(" ", this._markovHelper.Chain.Chain(rand));
+                return JsonConvert.DeserializeObject<Review>(review);
+            }
+            else
+            {
+                // This is just for simplicity's sake. In a real project I'd want to return a user-friendly error and a proper HTTP response code.
+                return new Review();
+            }
+            
         }
     }
 }
