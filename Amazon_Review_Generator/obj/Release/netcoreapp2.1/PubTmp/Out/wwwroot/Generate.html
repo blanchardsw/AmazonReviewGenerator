@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    Generate a random Amazon review:
+    <br />
+    <br />
+    <button onclick="generateReview()">Try it out!</button>
+
+    <br />
+    <div>
+        <textarea id="reviewText" name="reviewText" wrap="hard" contenteditable="false" cols="100" rows="20"></textarea>
+    </div>
+
+    <script language="javascript">
+        async function generateReview() {
+            let response = await fetch('http://' + window.location.hostname + ':' + window.location.port +'/api/generate');
+            let jsonResponse = await response.json();
+
+            let prettyJson = JSON.stringify(jsonResponse, undefined, 1);
+            document.getElementById("reviewText").innerHTML = prettyJson;
+        }
+    </script>
+
+</body>    
+</html>

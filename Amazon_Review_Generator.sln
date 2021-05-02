@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon_Review_Generator", "Amazon_Review_Generator\Amazon_Review_Generator.csproj", "{B040E8E5-C7E4-4E40-871F-784C6189F114}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewGeneratorTests", "ReviewGeneratorTests\ReviewGeneratorTests.csproj", "{CADC90AC-0A45-4794-8164-05A3C11A0F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B040E8E5-C7E4-4E40-871F-784C6189F114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B040E8E5-C7E4-4E40-871F-784C6189F114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B040E8E5-C7E4-4E40-871F-784C6189F114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B040E8E5-C7E4-4E40-871F-784C6189F114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADC90AC-0A45-4794-8164-05A3C11A0F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADC90AC-0A45-4794-8164-05A3C11A0F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADC90AC-0A45-4794-8164-05A3C11A0F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADC90AC-0A45-4794-8164-05A3C11A0F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {550DCDBA-0E35-4E20-A924-A96D7CAFE74B}
+	EndGlobalSection
+EndGlobal

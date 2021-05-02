@@ -1,0 +1,14 @@
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\bin\Release\netcoreapp2.1\Amazon_Review_Generator.deps.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\bin\Release\netcoreapp2.1\Amazon_Review_Generator.runtimeconfig.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\bin\Release\netcoreapp2.1\Amazon_Review_Generator.runtimeconfig.dev.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\bin\Release\netcoreapp2.1\Amazon_Review_Generator.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\bin\Release\netcoreapp2.1\Amazon_Review_Generator.pdb
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.csprojAssemblyReference.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.csproj.CoreCompileInputs.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.RazorAssemblyInfo.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.RazorAssemblyInfo.cs
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.AssemblyInfoInputs.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.AssemblyInfo.cs
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.RazorTargetAssemblyInfo.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\Amazon_Review_Generator\obj\Release\netcoreapp2.1\Amazon_Review_Generator.pdb

@@ -1,0 +1,17 @@
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\ReviewGeneratorTests.deps.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\ReviewGeneratorTests.runtimeconfig.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\ReviewGeneratorTests.runtimeconfig.dev.json
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\ReviewGeneratorTests.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\ReviewGeneratorTests.pdb
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\Amazon_Review_Generator.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\bin\Debug\netcoreapp2.1\Amazon_Review_Generator.pdb
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.csprojAssemblyReference.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.csproj.CoreCompileInputs.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.AssemblyInfoInputs.cache
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.AssemblyInfo.cs
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.csproj.CopyComplete
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.dll
+C:\Users\Stephen\source\repos\Amazon_Review_Generator\ReviewGeneratorTests\obj\Debug\netcoreapp2.1\ReviewGeneratorTests.pdb
