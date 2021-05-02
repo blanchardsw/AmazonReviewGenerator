@@ -2,9 +2,7 @@
 using Amazon_Review_Generator.Models;
 using Markov;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ReviewGeneratorTests.ImplementationTests
 {
